@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is my Calculator Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+   <h1 class="fs-1">My calculator</h1>
+   <div>
+       <input class="re-field" type="text" id="result" maxlength="12">
+   </div>
+   <div class="seven-nine">
+       <input class="bg-dark" type="button" value="D" onclick="clear()">
+       <input class="bg-dark" type="button" value="%" onclick="persent('*')">
+       <input class="bg-dark" type="button" value="." onclick="passvalue('.')">
+       <input class="bg-dark" type="button" value="m" onclick="passvalue()">
+   </div>
+   <div class="seven-nine">
+       <input class="bg-dark" type="button" value="7" onclick="passvalue(7)">
+       <input class="bg-dark" type="button" value="8" onclick="passvalue(8)">
+       <input class="bg-dark" type="button" value="9" onclick="passvalue(9)">
+       <input class="bg-dark" type="button" value="X" onclick="passvalue('*')">
+   </div>
+   <div class="four-six">
+       <input class="bg-dark" type="button" value="4" onclick="passvalue(4)">
+       <input class="bg-dark" type="button" value="5" onclick="passvalue(5)">
+       <input class="bg-dark" type="button" value="6" onclick="passvalue(6)">
+       <input class="bg-dark" type="button" value="/" onclick="passvalue('/')">
+   </div>
+   <div class="one-three">
+       <input class="bg-dark" type="button" value="1" onclick="passvalue(1)">
+       <input class="bg-dark" type="button" value="2" onclick="passvalue(2)">
+       <input class="bg-dark" type="button" value="3" onclick="passvalue(3)">
+       <input class="bg-dark" type="button" value="-" onclick="passvalue('-')">
+   </div>
+   <div class="one-three">
+       <input class="bg-dark" type="button" value="C" onclick="cancel('')">
+       <input class="bg-dark" type="button" value="0" onclick="passvalue(0)">
+       <input class="bg-dark" type="button" value="=" onclick="result()">
+       <input class="bg-dark" type="button" value="+" onclick="passvalue('+')">
+   </div>
+    
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</div>
+</body>
+</html>

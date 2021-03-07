@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.re-field{
+    width:270px;
+    height: 80px;
+    text-align: right;
+    padding:5px;
+}
+.seven-nine{
+    width:285px;
+    display:block;
+   
+    
+}
+.seven-nine input[type="button"]{
+    padding:20px 25px;
+    border-right: 1px solid lighter;
+    color:#fff;
+    font-size:20px;
+    margin:0px;
+    float:left;
+    
+    
+}
+
+.four-six{
+    width:285px;
+    display:block;
+   
+    
+}
+.four-six input[type="button"]{
+    padding:20px 25px;
+    border-right: 1px solid lighter;
+    color:#fff;
+    font-size:20px;
+    margin:0px;
+    float:left;
+    
+}
+.one-three{
+    width:285px;
+    display:block;
+}
+.one-three input[type="button"]{
+    padding:20px 25px;
+    border-right: 1px solid lighter;
+    color:#fff;
+    font-size:20px;
+    margin:0px;
+    float:left;
+    
+}
